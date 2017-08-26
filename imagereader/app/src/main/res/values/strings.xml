@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImageReader</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="disp1">Please use options below to upload an image</string>
+    <string name="or1">OR</string>
+</resources>
