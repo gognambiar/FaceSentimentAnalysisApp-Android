@@ -61,7 +61,7 @@ public class RetFragment extends Fragment {
     private String mParam2;
     private static final int CAMERA_PIC_REQUEST = 1337;
     private static final int IMG_LOAD_REQUEST = 1330;
-    private static final int MAX_FACES = 2;
+    private static final int MAX_FACES = 3;
     public Bitmap image;
     private static final String TAG = "MyActivity";
     private FaceDetector.Face[] faceList = new FaceDetector.Face[MAX_FACES];
