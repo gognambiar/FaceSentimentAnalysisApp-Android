@@ -1,5 +1,5 @@
 # FaceSentimentAnalysisApp-Android
-Implemented an Android App that predicts face sentiments(Happy,Sad,Angry,Excited,Neutral) of the faces in a photo. The App allows user to either upload a photo or take one. The photo is then searched for faces and they are cropped out. The faces are then sent to a server written in Python via REST. The server is a Convolutional Neural Network trained with 20000 face images. The server predicts the sentiment and sends the response back to the App.
+Implemented an Android App that predicts face sentiments(Angry, Disgust, Fear, Happy, Neutral, Sad, Surprise) of the faces in a photo. The App allows user to either upload a photo or take one. The photo is then searched for faces and they are cropped out. The faces are then sent to a server written in Python via REST. The server is a Convolutional Neural Network trained with 20000 face images. The server predicts the sentiment and sends the response back to the App.
 
 
 The User interface provides the user with options to either take a picture using camera or upload a photo from the file system. Once the photo is uploaded/taken, the app detects all the faces in the picture(Maximum number of faces that can be detected is set to 3). If there are no faces is the picture, an alert message is thrown stating "No faces found, please take/upload another photo!" 
